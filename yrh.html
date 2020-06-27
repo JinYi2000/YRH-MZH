@@ -26,11 +26,11 @@
         }
 
         .body--ready {
-            background: -webkit-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -moz-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -o-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -ms-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
+            background: -webkit-linear-gradient(top, rgb(207, 195, 195) 0%, rgb(255,192,203) 120%);
+            background: -moz-linear-gradient(top, rgb(207, 195, 195) 0%, rgb(255,192,203) 120%);
+            background: -o-linear-gradient(top, rgb(207, 195, 195) 0%, rgb(255,192,203) 120%);
+            background: -ms-linear-gradient(top, rgb(207, 195, 195) 0%, rgb(255,192,203) 120%);
+            background: linear-gradient(top, rgb(207, 195, 195) 0%, rgb(255,192,203) 120%);
         }
 
         .text {
@@ -49,8 +49,8 @@
             width: 128px;
             background-size: cover;
             border-radius: 200px;
-            box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
-            border: 3px solid #00a0ff;
+            box-shadow: 0px 0px 40px rgba(228, 148, 217, 0.72);
+            border: 3px solid #db242436;
             opacity: 1;
             margin: 0 auto;
             margin-top: 20px;
@@ -103,7 +103,7 @@
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    We fell in love
+    与你一起度过了春风十里
     <br/>
     <span id="span_dt_dt"></span>
 </p>
@@ -134,7 +134,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("鸿鸿！|I'm|浩浩|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("鸿鸿！|I'm|浩浩|Nice|to|Meet|You !!!|❤ 你 ~|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -668,8 +668,8 @@
     S.init();
 </script>
 <!-- //音乐可改 -->
-<audio autoplay="autoplay" loop="loop">
+<!--<audio autoplay="autoplay" loop="loop">
     <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
-</audio>
+</audio> -->
 </body>
 </html>
